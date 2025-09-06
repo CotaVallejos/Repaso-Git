@@ -13,3 +13,6 @@ git branch -> nos permite visualizar todas las ramas que están activas en el re
 git checkout nombre_rama -> para cambiar la rama en la que estamos trabajando
 git checkout -B qa -> te crea una nueva rama y además te cambia a esa rama
 git merge nombre_rama -> traerse, combinar los cambios de nombre_rama 
+
+git remote add origin https_link -> conecta archivo remoto con local
+git push -u origin main -> comparte el archivo local al remoto
