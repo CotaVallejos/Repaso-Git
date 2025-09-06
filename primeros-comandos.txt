@@ -1,0 +1,5 @@
+git init -> inicializar un repositorio en un proyecto
+git status -> permite visualizar tus cambios dentro del proyecto
+git add nombre_archivo.extension -> agregará a staged sólo el archivo 
+git add . -> es lo mismo que haces clic en el + de changes, agrega a staged todos los archivos
+git commit -m "first commit"
