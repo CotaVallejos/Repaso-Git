@@ -1,5 +1,14 @@
+git config --global user.name "nombre"
+git config --global user.email "correo"
+
 git init -> inicializar un repositorio en un proyecto
 git status -> permite visualizar tus cambios dentro del proyecto
 git add nombre_archivo.extension -> agregará a staged sólo el archivo 
 git add . -> es lo mismo que haces clic en el + de changes, agrega a staged todos los archivos
 git commit -m "first commit"
+git log -> permite visualizar todos los commit que se hayan hecho a lo largo de nuestro repositorio
+
+git branch Dev -> nos va a crear una nueva rama
+git branch -> nos permite visualizar todas las ramas que están activas en el repositorio
+git checkout nombre_rama -> para cambiar la rama en la que estamos trabajando
+git checkout -B qa -> te crea una nueva rama y además te cambia a esa rama
