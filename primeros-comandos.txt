@@ -12,3 +12,4 @@ git branch Dev -> nos va a crear una nueva rama
 git branch -> nos permite visualizar todas las ramas que están activas en el repositorio
 git checkout nombre_rama -> para cambiar la rama en la que estamos trabajando
 git checkout -B qa -> te crea una nueva rama y además te cambia a esa rama
+git merge nombre_rama -> traerse, combinar los cambios de nombre_rama 
